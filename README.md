@@ -1,5 +1,5 @@
 <h1 align="center">Cleaning company</h1>
-![](/readme_assets/home.png)
+![Home page](https://github.com/Starlex02/cleaning-company/blob/main/readme_assets/home.png)
 
 ## Description
 This is the website of a fictional cleaning company called Siaivo. The listing site is designed to present the company, its services and provide convenient contact with potential customers.
