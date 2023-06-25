@@ -37,7 +37,7 @@ npm start
 ```
 
 ## Technologies used
-Сайт-лістінг розроблено з використанням наступних технологій:
+The listing site was developed using the following technologies:
 
 + HTML5: For the structure and markup of web pages. 
 + CSS3: For the design and styling of web pages. 
