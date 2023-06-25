@@ -59,7 +59,7 @@ We would like to thank [Anna Zazhytko](https://www.linkedin.com/in/anna-zazhytko
 As a developer, I used this design as a basis for implementing the functionality and program code, ensuring that the design was properly implemented and the site worked correctly.
 
 ### Original website design with Figma
-![](/readme_assets/figma.pdf)
+![](/readme_assets/figma.png)
 
 ## Link to the author
 ### Code
