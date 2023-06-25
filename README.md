@@ -1,5 +1,4 @@
 <h1 align="center">Cleaning company</h1>
-
 ![](/readme_assets/home.png)
 
 ## Description
