@@ -54,7 +54,7 @@ The website design was developed by someone else and includes the following elem
 + The appearance of buttons, links and input forms. 
 + The images, logos and other graphic elements used on the site.
 
-We would like to thank [Anna Zazhytko](https://www.linkedin.com/in/anna-zazhytko/)([Git](https://github.com/azazhyk)), who is responsible for the development of the website design. Her contribution to the project was extremely valuable and crucial in creating an attractive and user-friendly interface.
+We would like to thank [Anna Zazhytko](https://www.linkedin.com/in/anna-zazhytko/) ([Git](https://github.com/azazhyk)), who is responsible for the development of the website design. Her contribution to the project was extremely valuable and crucial in creating an attractive and user-friendly interface.
 
 As a developer, I used this design as a basis for implementing the functionality and program code, ensuring that the design was properly implemented and the site worked correctly.
 
