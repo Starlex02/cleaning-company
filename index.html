@@ -1,500 +1,843 @@
 <!DOCTYPE html>
 <html lang="uk">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cleaning company</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
     <script src="main.js" defer></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Into content -->
     <div class="into-content">
-        <!-- Navbar -->
-        <div class="navbar-content">
-            <div class="navbar-logo"><a class="logo" href="">Сяйво</a></div>
-            <nav class="main-nav">
-                <ul class="main-nav-list">
-                    <li class="main-nav-item"><a href="#">Головна</a></li>
-                    <li class="main-nav-item"><a href="#services">Послуги</a></li>
-                    <li class="main-nav-item"><a href="#faq">Питання</a></li>
-                    <li class="main-nav-item"><a href="#contact">Контакти</a></li>
-                </ul>
-            </nav>
-        </div>
-        <!-- Intro -->
-        <div class="intro">
-            <h1 class="intro-text">наведемо<img class="intro-image" src="images/intro.png" alt="Clean kitchen">порядок,
-                поки ви відпочиваєте</h1>
-            <button class="intro-button-buy">
-                <a class="intro-button-buy-a" href="#form">Замовити</a>
-            </button>
-        </div>
+      <!-- Navbar -->
+      <div class="navbar-content">
+        <div class="navbar-logo"><a class="logo" href="">Сяйво</a></div>
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li class="main-nav-item"><a href="#">Головна</a></li>
+            <li class="main-nav-item"><a href="#services">Послуги</a></li>
+            <li class="main-nav-item"><a href="#faq">Питання</a></li>
+            <li class="main-nav-item"><a href="#contact">Контакти</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- Intro -->
+      <div class="intro">
+        <h1 class="intro-text">
+          наведемо<img
+            class="intro-image"
+            src="images/intro.png"
+            alt="Clean kitchen"
+          />порядок, поки ви відпочиваєте
+        </h1>
+        <button class="intro-button-buy">
+          <a class="intro-button-buy-a" href="#form">Замовити</a>
+        </button>
+      </div>
     </div>
     <!-- Feature -->
     <div class="feature">
-        <div class="aside-feature">
-            <p class="aside-descr-feature">Чому саме ми?</p>
+      <div class="aside-feature">
+        <p class="aside-descr-feature">Чому саме ми?</p>
+      </div>
+      <div class="main-descr-feature">
+        <div class="main-descr-feature-item">
+          <h3 class="main-descr-feature-item-header">Команда</h3>
+          <p class="main-descr-feature-item-descr">
+            Молоді амбітні хлопці, які щороку проходять спецнавчання
+          </p>
         </div>
-        <div class="main-descr-feature">
-            <div class="main-descr-feature-item">
-                <h3 class="main-descr-feature-item-header">Команда</h3>
-                <p class="main-descr-feature-item-descr">Молоді амбітні хлопці, які щороку проходять спецнавчання</p>
-            </div>
-            <div class="main-descr-feature-item">
-                <h3 class="main-descr-feature-item-header">Обладнання</h3>
-                <p class="main-descr-feature-item-descr">Сучасна техніка та німецькі склади коштів</p>
-            </div>
-            <div class="main-descr-feature-item">
-                <h3 class="main-descr-feature-item-header">Договір</h3>
-                <p class="main-descr-feature-item-descr">Страхування Вашого майна від псування та крадіжки</p>
-            </div>
+        <div class="main-descr-feature-item">
+          <h3 class="main-descr-feature-item-header">Обладнання</h3>
+          <p class="main-descr-feature-item-descr">
+            Сучасна техніка та німецькі склади коштів
+          </p>
         </div>
+        <div class="main-descr-feature-item">
+          <h3 class="main-descr-feature-item-header">Договір</h3>
+          <p class="main-descr-feature-item-descr">
+            Страхування Вашого майна від псування та крадіжки
+          </p>
+        </div>
+      </div>
     </div>
     <!-- Services -->
     <div class="services" id="services">
-        <h2 class="services-heading">Послуги</h2>
-        <div class="services-room-name-list">
-            <h3 class="room-list-item active">Однокімнатна</h3>
-            <h3 class="room-list-item">Двокімнатна</h3>
-            <h3 class="room-list-item">Трьох-чотирьох кімнатна</h3>
-            <h3 class="room-list-item">Заміський будинок</h3>
+      <h2 class="services-heading">Послуги</h2>
+      <div class="services-room-name-list">
+        <h3 class="room-list-item active">Однокімнатна</h3>
+        <h3 class="room-list-item">Двокімнатна</h3>
+        <h3 class="room-list-item">Трьох-чотирьох кімнатна</h3>
+        <h3 class="room-list-item">Заміський будинок</h3>
+      </div>
+      <div class="services-room-card-list">
+        <div class="room-card">
+          <img
+            class="room-card-img"
+            src="images/cluttered-room-1.jpg"
+            alt="Приклад засміченої кімнати"
+          />
+          <h4 class="room-card-def">Генеральне прибирання</h4>
+          <p class="room-card-price">від 80 грн/м<sup>2</sup></p>
         </div>
-        <div class="services-room-card-list">
-            <div class="room-card">
-                <img class="room-card-img" src="images/cluttered-room-1.jpg" alt="Приклад засміченої кімнати">
-                <h4 class="room-card-def">Генеральне прибирання</h4>
-                <p class="room-card-price">від 80 грн/м<sup>2</sup></p>
-            </div>
-            <div class="room-card">
-                <img class="room-card-img" src="images/clean-room-1.jpg" alt="Приклад чистої кімнати">
-                <h4 class="room-card-def">Підтримуюче прибирання</h4>
-                <p class="room-card-price">від 45 грн/м<sup>2</sup></p>
-            </div>
-            <div class="room-card">
-                <img class="room-card-img" src="images/cleaning-after-repair-1.jpg"
-                    alt="Приклад кімнати з залишиним брудом та інструментами після ремонту">
-                <h4 class="room-card-def">Прибирання після ремонту</h4>
-                <p class="room-card-price">від 90 грн/м<sup>2</sup></p>
-            </div>
-            <div class="room-card">
-                <img class="room-card-img" src="images/person-cleans-room-1.jpg" alt="Людина в гумових рукавичках">
-                <h4 class="room-card-def">Дезінфекційна обробка</h4>
-                <p class="room-card-price">1000 грн</p>
-            </div>
+        <div class="room-card">
+          <img
+            class="room-card-img"
+            src="images/clean-room-1.jpg"
+            alt="Приклад чистої кімнати"
+          />
+          <h4 class="room-card-def">Підтримуюче прибирання</h4>
+          <p class="room-card-price">від 45 грн/м<sup>2</sup></p>
         </div>
+        <div class="room-card">
+          <img
+            class="room-card-img"
+            src="images/cleaning-after-repair-1.jpg"
+            alt="Приклад кімнати з залишиним брудом та інструментами після ремонту"
+          />
+          <h4 class="room-card-def">Прибирання після ремонту</h4>
+          <p class="room-card-price">від 90 грн/м<sup>2</sup></p>
+        </div>
+        <div class="room-card">
+          <img
+            class="room-card-img"
+            src="images/person-cleans-room-1.jpg"
+            alt="Людина в гумових рукавичках"
+          />
+          <h4 class="room-card-def">Дезінфекційна обробка</h4>
+          <p class="room-card-price">1000 грн</p>
+        </div>
+      </div>
     </div>
     <!-- How to arrange cleaning -->
     <div class="how-to-cleaning-content">
-        <h2 class="how-to-heading">Як оформити прибирання</h2>
-        <div class="how-to-main-content">
-            <div class="main-content-cloud">
-                <h4 class="cloud-name">Залишаєте заявку</h4>
-                <p class="cloud-text">Заповніть швидку анкету або зв'яжіться з нами за контактами на сайті.</p>
-            </div>
-            <div class="main-content-cloud">
-                <h4 class="cloud-name">Деталі сервісу та ціна</h4>
-                <p class="cloud-text">Розглянемо тип прибирання та наявність додаткових послуг, пов'язаних із Вашим
-                    запитом та розрахуємо вартість.</p>
-            </div>
-            <div class="main-content-cloud">
-                <h4 class="cloud-name">Призначення дати</h4>
-                <p class="cloud-text">Вибираємо відповідну дату та годину, а також затвердимо договір</p>
-            </div>
-            <div class="main-content-cloud">
-                <h4 class="cloud-name">Виконання прибирання</h4>
-                <p class="cloud-text">У призначений час приїжджають наші майстри, прибирають усе, що потрібно, і
-                    передають звіт про виконану роботу.</p>
-            </div>
-            <div class="main-content-cloud">
-                <h4 class="cloud-name">Оплата</h4>
-                <p class="cloud-text">І тільки після перевірки та прийняття результату Ви оплачуєте послуги.</p>
-            </div>
+      <h2 class="how-to-heading">Як оформити прибирання</h2>
+      <div class="how-to-main-content">
+        <div class="main-content-cloud">
+          <h4 class="cloud-name">Залишаєте заявку</h4>
+          <p class="cloud-text">
+            Заповніть швидку анкету або зв'яжіться з нами за контактами на
+            сайті.
+          </p>
         </div>
+        <div class="main-content-cloud">
+          <h4 class="cloud-name">Деталі сервісу та ціна</h4>
+          <p class="cloud-text">
+            Розглянемо тип прибирання та наявність додаткових послуг, пов'язаних
+            із Вашим запитом та розрахуємо вартість.
+          </p>
+        </div>
+        <div class="main-content-cloud">
+          <h4 class="cloud-name">Призначення дати</h4>
+          <p class="cloud-text">
+            Вибираємо відповідну дату та годину, а також затвердимо договір
+          </p>
+        </div>
+        <div class="main-content-cloud">
+          <h4 class="cloud-name">Виконання прибирання</h4>
+          <p class="cloud-text">
+            У призначений час приїжджають наші майстри, прибирають усе, що
+            потрібно, і передають звіт про виконану роботу.
+          </p>
+        </div>
+        <div class="main-content-cloud">
+          <h4 class="cloud-name">Оплата</h4>
+          <p class="cloud-text">
+            І тільки після перевірки та прийняття результату Ви оплачуєте
+            послуги.
+          </p>
+        </div>
+      </div>
     </div>
     <!-- Work results -->
     <div class="work-result">
-        <h2 class="work-result-heading">Результати нашої роботи</h2>
-        <div class="work-result-content">
-            <div class="work-result-card nonactive">
-                <img class="work-result-picture" src="images/before-after-1.jpg" alt="Результати роботи до та після прибирання">
-            </div>
-            <div class="work-result-card nonactive">
-                <img class="work-result-picture" src="images/before-after-2.jpg" alt="Результати роботи до та після прибирання">
-            </div>
-            <div class="work-result-card">
-                <img class="work-result-picture active" src="images/before-after-3.jpg" alt="Результати роботи до та після прибирання">
-            </div>
-            <div class="work-result-card nonactive">
-                <img class="work-result-picture" src="images/before-after-3.jpg" alt="Результати роботи до та після прибирання">
-            </div>
-            <div class="work-result-card nonactive">
-                <img class="work-result-picture" src="images/before-after-3.jpg" alt="Результати роботи до та після прибирання">
-            </div>
+      <h2 class="work-result-heading">Результати нашої роботи</h2>
+      <div class="work-result-content">
+        <div class="work-result-card nonactive">
+          <img
+            class="work-result-picture"
+            src="images/before-after-1.jpg"
+            alt="Результати роботи до та після прибирання"
+          />
         </div>
-        <div class="work-result-button-list">
-            <div class="work-result-button-item"></div>
-            <div class="work-result-button-item"></div>
-            <div class="work-result-button-item active"></div>
-            <div class="work-result-button-item"></div>
-            <div class="work-result-button-item"></div>
+        <div class="work-result-card nonactive">
+          <img
+            class="work-result-picture"
+            src="images/before-after-2.jpg"
+            alt="Результати роботи до та після прибирання"
+          />
         </div>
+        <div class="work-result-card">
+          <img
+            class="work-result-picture active"
+            src="images/before-after-3.jpg"
+            alt="Результати роботи до та після прибирання"
+          />
+        </div>
+        <div class="work-result-card nonactive">
+          <img
+            class="work-result-picture"
+            src="images/before-after-3.jpg"
+            alt="Результати роботи до та після прибирання"
+          />
+        </div>
+        <div class="work-result-card nonactive">
+          <img
+            class="work-result-picture"
+            src="images/before-after-3.jpg"
+            alt="Результати роботи до та після прибирання"
+          />
+        </div>
+      </div>
+      <div class="work-result-button-list">
+        <div class="work-result-button-item"></div>
+        <div class="work-result-button-item"></div>
+        <div class="work-result-button-item active"></div>
+        <div class="work-result-button-item"></div>
+        <div class="work-result-button-item"></div>
+      </div>
     </div>
     <!-- Contact -->
     <div class="contact" id="contact">
-        <h2 class="contact-heading">Зв'яжіться з нами</h2>
-        <p class="contact-defen">Будемо раді відповісти Вам на всі запитання та оформити замовлення</p>
-        <p class="contact-info">Залишіть заявку або напишіть нам через зручний для Вас месенджер.<br> Швидкість
-            відповіді в робочий годинник ~ 15 хвилин.</p>
-        <div class="contact-buttons">
-            <a class="contact-button-social" href="https://uk-ua.facebook.com/">ФБ</a>
-            <a class="contact-button-social" href="https://web.telegram.org/">ТГ</a>
-            <a class="contact-button-social" href="https://www.instagram.com/">Інста</a>
-            <a class="contact-button-order" href="#form">Замовити прибирання</a>
-        </div>
+      <h2 class="contact-heading">Зв'яжіться з нами</h2>
+      <p class="contact-defen">
+        Будемо раді відповісти Вам на всі запитання та оформити замовлення
+      </p>
+      <p class="contact-info">
+        Залишіть заявку або напишіть нам через зручний для Вас месенджер.<br />
+        Швидкість відповіді в робочий годинник ~ 15 хвилин.
+      </p>
+      <div class="contact-buttons">
+        <a class="contact-button-social" href="https://uk-ua.facebook.com/"
+          >ФБ</a
+        >
+        <a class="contact-button-social" href="https://web.telegram.org/">ТГ</a>
+        <a class="contact-button-social" href="https://www.instagram.com/"
+          >Інста</a
+        >
+        <a class="contact-button-order" href="#form">Замовити прибирання</a>
+      </div>
     </div>
     <!-- Our team -->
     <div class="team">
-        <h2 class="team-heading">Наша команда</h2>
-        <div class="team-list">
-            <div class="team-manager-card">
-                <img class="team-card-image" src="images/team-person-1.jfif" alt="Фотографія чоловіка, який у нас займається прибиранням">
-                <h4 class="team-card-name">Паша</h4>
-                <p class="team-card-experience">менеджер, стаж 3 р.</p>
-            </div>
-            <div class="team-manager-card">
-                <img class="team-card-image" src="images/team-person-2.jfif" alt="Фотографія дівчини, яка у нас займається прибиранням">
-                <h4 class="team-card-name">Марія</h4>
-                <p class="team-card-experience">менеджер, стаж 4 р.</p>
-            </div>
-            <div class="team-cleaner-card">
-                <img class="team-card-image" src="images/team-person-3.jfif" alt="Фотографія дівчини, яка у нас займається прибиранням">
-                <h4 class="team-card-name">Катерина</h4>
-                <p class="team-card-experience">клінер, стаж 4 р.</p>
-            </div>
-            <div class="team-cleaner-card">
-                <img class="team-card-image" src="images/team-person-4.jfif" alt="Фотографія чоловіка, який у нас займається прибиранням">
-                <h4 class="team-card-name">Олексій</h4>
-                <p class="team-card-experience">клінер, стаж 3 р.</p>
-            </div>
-            <div class="team-cleaner-card">
-                <img class="team-card-image" src="images/team-person-5.jfif" alt="Фотографія чоловіка, який у нас займається прибиранням">
-                <h4 class="team-card-name">Борис</h4>
-                <p class="team-card-experience">клінер, стаж 4 р.</p>
-            </div>
+      <h2 class="team-heading">Наша команда</h2>
+      <div class="team-list">
+        <div class="team-manager-card">
+          <img
+            class="team-card-image"
+            src="images/team-person-1.jfif"
+            alt="Фотографія чоловіка, який у нас займається прибиранням"
+          />
+          <h4 class="team-card-name">Паша</h4>
+          <p class="team-card-experience">менеджер, стаж 3 р.</p>
         </div>
+        <div class="team-manager-card">
+          <img
+            class="team-card-image"
+            src="images/team-person-2.jfif"
+            alt="Фотографія дівчини, яка у нас займається прибиранням"
+          />
+          <h4 class="team-card-name">Марія</h4>
+          <p class="team-card-experience">менеджер, стаж 4 р.</p>
+        </div>
+        <div class="team-cleaner-card">
+          <img
+            class="team-card-image"
+            src="images/team-person-3.jfif"
+            alt="Фотографія дівчини, яка у нас займається прибиранням"
+          />
+          <h4 class="team-card-name">Катерина</h4>
+          <p class="team-card-experience">клінер, стаж 4 р.</p>
+        </div>
+        <div class="team-cleaner-card">
+          <img
+            class="team-card-image"
+            src="images/team-person-4.jfif"
+            alt="Фотографія чоловіка, який у нас займається прибиранням"
+          />
+          <h4 class="team-card-name">Олексій</h4>
+          <p class="team-card-experience">клінер, стаж 3 р.</p>
+        </div>
+        <div class="team-cleaner-card">
+          <img
+            class="team-card-image"
+            src="images/team-person-5.jfif"
+            alt="Фотографія чоловіка, який у нас займається прибиранням"
+          />
+          <h4 class="team-card-name">Борис</h4>
+          <p class="team-card-experience">клінер, стаж 4 р.</p>
+        </div>
+      </div>
     </div>
     <!-- FAQ -->
     <div class="faq" id="faq">
-        <h2 class="faq-heading">Поширені запитання</h2>
-        <div class="faq-container">
-            <div class="faq-container-item show">
-                <h3 class="faq-container-item-question">Скільки часу триває прибирання?
-                    <span class="faq-container-item-question-arrow show"></span></h3>
-                <h4 class="faq-container-item-answer">Час прибирання триває в залежності від складность забруднень та
-                    розмірів приміщень. Детальніше Ви можете дізнатися після залишення нам заявки</h4>
-            </div>
-            <div class="faq-container-item">
-                <h3 class="faq-container-item-question">Чи працюєте ви по всій Україні?
-                    <span class="faq-container-item-question-arrow"></span></h3>
-                <h4 class="faq-container-item-answer">На жаль, наша ми працюємо тільки в Києві та Київській області</h4>
-            </div>
-            <div class="faq-container-item">
-                <h3 class="faq-container-item-question">Чи є якісь знижки або акції?
-                    <span class="faq-container-item-question-arrow"></span></h3>
-                <h4 class="faq-container-item-answer">Ні</h4>
-            </div>
-            <div class="faq-container-item">
-                <h3 class="faq-container-item-question">Яка гарантія збереження мого майна?
-                    <span class="faq-container-item-question-arrow"></span></h3>
-                <h4 class="faq-container-item-answer">Після підтвердження дати та тимчасового підписання контракту, який
-                    страхує Ваше майно від псування Ваших речей. Якщо щось наші працівники під час прибирання пошкодять або 
-                    зламають - ремонт/заміна за наш рахунок.</h4>
-            </div>
-            <div class="faq-container-item">
-                <h3 class="faq-container-item-question">За який час потрібно залишати заявку на прибирання
-                    <span class="faq-container-item-question-arrow"></span></h3>
-                <h4 class="faq-container-item-answer">Заявку на прибирання потрібно залишати за 14 робочих днів</h4>
-            </div>
+      <h2 class="faq-heading">Поширені запитання</h2>
+      <div class="faq-container">
+        <div class="faq-container-item show">
+          <h3 class="faq-container-item-question">
+            Скільки часу триває прибирання?
+            <span class="faq-container-item-question-arrow show"></span>
+          </h3>
+          <h4 class="faq-container-item-answer">
+            Час прибирання триває в залежності від складность забруднень та
+            розмірів приміщень. Детальніше Ви можете дізнатися після залишення
+            нам заявки
+          </h4>
         </div>
+        <div class="faq-container-item">
+          <h3 class="faq-container-item-question">
+            Чи працюєте ви по всій Україні?
+            <span class="faq-container-item-question-arrow"></span>
+          </h3>
+          <h4 class="faq-container-item-answer">
+            На жаль, наша ми працюємо тільки в Києві та Київській області
+          </h4>
+        </div>
+        <div class="faq-container-item">
+          <h3 class="faq-container-item-question">
+            Чи є якісь знижки або акції?
+            <span class="faq-container-item-question-arrow"></span>
+          </h3>
+          <h4 class="faq-container-item-answer">Ні</h4>
+        </div>
+        <div class="faq-container-item">
+          <h3 class="faq-container-item-question">
+            Яка гарантія збереження мого майна?
+            <span class="faq-container-item-question-arrow"></span>
+          </h3>
+          <h4 class="faq-container-item-answer">
+            Після підтвердження дати та тимчасового підписання контракту, який
+            страхує Ваше майно від псування Ваших речей. Якщо щось наші
+            працівники під час прибирання пошкодять або зламають - ремонт/заміна
+            за наш рахунок.
+          </h4>
+        </div>
+        <div class="faq-container-item">
+          <h3 class="faq-container-item-question">
+            За який час потрібно залишати заявку на прибирання
+            <span class="faq-container-item-question-arrow"></span>
+          </h3>
+          <h4 class="faq-container-item-answer">
+            Заявку на прибирання потрібно залишати за 14 робочих днів
+          </h4>
+        </div>
+      </div>
     </div>
     <!-- Reviews -->
     <div class="reviews">
-        <h2 class="reviews-heading">Відгуки наших клієнтів</h2>
-        <div class="reviews-content">
-            <div class="reviews-content-card">
-                <div class="reviews-content-card-bio">
-                    <img src="images/reviews-client-1.jfif" class="reviews-content-card-img" alt="Фотографія дівчини, яка у нас замовила прибирання">
-                    <div>
-                        <h3 class="reviews-content-card-name">Катерина Колеснік</h3>
-                        <p class="reviews-content-card-job">продавець</p>
-                    </div>
-                </div>
-                <h4 class="reviews-content-card-defen">Вже неодноразово замовляв прибирання, все як завжди на висоті!
-                </h4>
+      <h2 class="reviews-heading">Відгуки наших клієнтів</h2>
+      <div class="reviews-content">
+        <div class="reviews-content-card">
+          <div class="reviews-content-card-bio">
+            <img
+              src="images/reviews-client-1.jfif"
+              class="reviews-content-card-img"
+              alt="Фотографія дівчини, яка у нас замовила прибирання"
+            />
+            <div>
+              <h3 class="reviews-content-card-name">Катерина Колеснік</h3>
+              <p class="reviews-content-card-job">продавець</p>
             </div>
-            <div class="reviews-content-card">
-                <div class="reviews-content-card-bio">
-                    <img src="images/reviews-client-2.jpg" class="reviews-content-card-img" alt="Фотографія хлопця, який у нас замовив прибирання">
-                    <div>
-                        <h3 class="reviews-content-card-name">Саша Іванов</h3>
-                        <p class="reviews-content-card-job">бухгалтер</p>
-                    </div>
-                </div>
-                <h4 class="reviews-content-card-defen">Прекрасно виконали роботу, клінери привітні та дуже акуратні
-                    люди, обов'язково звернуся ще!</h4>
-            </div>
-            <div class="reviews-content-card active">
-                <div class="reviews-content-card-bio">
-                    <img src="images/reviews-client-3.jpeg" class="reviews-content-card-img" alt="Фотографія хлопця, який у нас замовив прибирання">
-                    <div>
-                        <h3 class="reviews-content-card-name">Паша Сокол</h3>
-                        <p class="reviews-content-card-job">інженер</p>
-                    </div>
-                </div>
-                <h4 class="reviews-content-card-defen">Хороше прибирання після ремонту. Дуже швидко та якісно, без
-                    зайвої тяганини.</h4>
-            </div>
-            <div class="reviews-content-card">
-                <div class="reviews-content-card-bio">
-                    <img src="images/reviews-client-3.jpeg" class="reviews-content-card-img" alt="Фотографія хлопця, який у нас замовив прибирання">
-                    <div>
-                        <h3 class="reviews-content-card-name">Паша Сокол</h3>
-                        <p class="reviews-content-card-job">інженер</p>
-                    </div>
-                </div>
-                <h4 class="reviews-content-card-defen">Хороше прибирання після ремонту. Дуже швидко та якісно, без
-                    зайвої тяганини.</h4>
-            </div>
-            <div class="reviews-content-card">
-                <div class="reviews-content-card-bio">
-                    <img src="images/reviews-client-3.jpeg" class="reviews-content-card-img" alt="Фотографія хлопця, який у нас замовив прибирання">
-                    <div>
-                        <h3 class="reviews-content-card-name">Паша Сокол</h3>
-                        <p class="reviews-content-card-job">інженер</p>
-                    </div>
-                </div>
-                <h4 class="reviews-content-card-defen">Хороше прибирання після ремонту. Дуже швидко та якісно, без
-                    зайвої тяганини.</h4>
-            </div>
+          </div>
+          <h4 class="reviews-content-card-defen">
+            Вже неодноразово замовляв прибирання, все як завжди на висоті!
+          </h4>
         </div>
-        <div class="reviews-result-button-list">
-            <div class="reviews-result-button-item"></div>
-            <div class="reviews-result-button-item"></div>
-            <div class="reviews-result-button-item active"></div>
-            <div class="reviews-result-button-item"></div>
-            <div class="reviews-result-button-item"></div>
+        <div class="reviews-content-card">
+          <div class="reviews-content-card-bio">
+            <img
+              src="images/reviews-client-2.jpg"
+              class="reviews-content-card-img"
+              alt="Фотографія хлопця, який у нас замовив прибирання"
+            />
+            <div>
+              <h3 class="reviews-content-card-name">Саша Іванов</h3>
+              <p class="reviews-content-card-job">бухгалтер</p>
+            </div>
+          </div>
+          <h4 class="reviews-content-card-defen">
+            Прекрасно виконали роботу, клінери привітні та дуже акуратні люди,
+            обов'язково звернуся ще!
+          </h4>
         </div>
+        <div class="reviews-content-card active">
+          <div class="reviews-content-card-bio">
+            <img
+              src="images/reviews-client-3.jpeg"
+              class="reviews-content-card-img"
+              alt="Фотографія хлопця, який у нас замовив прибирання"
+            />
+            <div>
+              <h3 class="reviews-content-card-name">Паша Сокол</h3>
+              <p class="reviews-content-card-job">інженер</p>
+            </div>
+          </div>
+          <h4 class="reviews-content-card-defen">
+            Хороше прибирання після ремонту. Дуже швидко та якісно, без зайвої
+            тяганини.
+          </h4>
+        </div>
+        <div class="reviews-content-card">
+          <div class="reviews-content-card-bio">
+            <img
+              src="images/reviews-client-3.jpeg"
+              class="reviews-content-card-img"
+              alt="Фотографія хлопця, який у нас замовив прибирання"
+            />
+            <div>
+              <h3 class="reviews-content-card-name">Паша Сокол</h3>
+              <p class="reviews-content-card-job">інженер</p>
+            </div>
+          </div>
+          <h4 class="reviews-content-card-defen">
+            Хороше прибирання після ремонту. Дуже швидко та якісно, без зайвої
+            тяганини.
+          </h4>
+        </div>
+        <div class="reviews-content-card">
+          <div class="reviews-content-card-bio">
+            <img
+              src="images/reviews-client-3.jpeg"
+              class="reviews-content-card-img"
+              alt="Фотографія хлопця, який у нас замовив прибирання"
+            />
+            <div>
+              <h3 class="reviews-content-card-name">Паша Сокол</h3>
+              <p class="reviews-content-card-job">інженер</p>
+            </div>
+          </div>
+          <h4 class="reviews-content-card-defen">
+            Хороше прибирання після ремонту. Дуже швидко та якісно, без зайвої
+            тяганини.
+          </h4>
+        </div>
+      </div>
+      <div class="reviews-result-button-list">
+        <div class="reviews-result-button-item"></div>
+        <div class="reviews-result-button-item"></div>
+        <div class="reviews-result-button-item active"></div>
+        <div class="reviews-result-button-item"></div>
+        <div class="reviews-result-button-item"></div>
+      </div>
     </div>
     <!-- Trusted -->
     <div class="trusted">
-        <h2 class="trusted-heading">Нам довіряють</h2>
-        <div class="trusted-container">
-            <div class="trusted-item-1"><img class="trusted-img" src="images/trusted-2.png" alt="Zara logo"></div>
-            <div class="trusted-item-2"><img class="trusted-img" src="images/trusted-1.png" alt="Mcdonalds logo"></div>
-            <div class="trusted-item-3"><img class="trusted-img" src="images/trusted-6.png" alt="NewYorker logo"></div>
-            <div class="trusted-item-4"><img class="trusted-img" src="images/trusted-3.png" alt="Adidas logo"></div>
-            <div class="trusted-item-5"><img class="trusted-img" src="images/trusted-4.png" alt="H and M logo"></div>
-            <div class="trusted-item-6"><img class="trusted-img" src="images/trusted-5.png" alt="Google logo"></div>
-            <div class="trusted-item-7"><img class="trusted-img" src="images/trusted-8.png" alt="Meta logo"></div>
-            <div class="trusted-item-8"><img class="trusted-img" src="images/trusted-7.png" alt="Epicenter logo"></div>
+      <h2 class="trusted-heading">Нам довіряють</h2>
+      <div class="trusted-container">
+        <div class="trusted-item-1">
+          <img class="trusted-img" src="images/trusted-2.png" alt="Zara logo" />
         </div>
+        <div class="trusted-item-2">
+          <img
+            class="trusted-img"
+            src="images/trusted-1.png"
+            alt="Mcdonalds logo"
+          />
+        </div>
+        <div class="trusted-item-3">
+          <img
+            class="trusted-img"
+            src="images/trusted-6.png"
+            alt="NewYorker logo"
+          />
+        </div>
+        <div class="trusted-item-4">
+          <img
+            class="trusted-img"
+            src="images/trusted-3.png"
+            alt="Adidas logo"
+          />
+        </div>
+        <div class="trusted-item-5">
+          <img
+            class="trusted-img"
+            src="images/trusted-4.png"
+            alt="H and M logo"
+          />
+        </div>
+        <div class="trusted-item-6">
+          <img
+            class="trusted-img"
+            src="images/trusted-5.png"
+            alt="Google logo"
+          />
+        </div>
+        <div class="trusted-item-7">
+          <img class="trusted-img" src="images/trusted-8.png" alt="Meta logo" />
+        </div>
+        <div class="trusted-item-8">
+          <img
+            class="trusted-img"
+            src="images/trusted-7.png"
+            alt="Epicenter logo"
+          />
+        </div>
+      </div>
     </div>
     <!-- Calculate -->
     <div class="calculate" id="form">
-        <h2 class="calculate-heading">Розрахувати ціну</h2>
-        <form class="calculate-container">
-            <div class="calculate-container-parameter">
-                <div class="calculate-container-room">
-                    <div>
-                        <div class="calculate-container-type-clean-room">
-                            <h3 class="calculate-container-type-clean-room-heading">Вид прибирання</h3>
-                            <div class="calculate-container-type-clean-room-choice">
-                                <div class="calculate-container-type-clean-room-header">
-                                    <span class="calculate-container-type-clean-room-name">Генеральне прибирання</span>
-                                    <span class="calculate-container-type-clean-room-arrow"></span>
-                                </div>
-                                <ul class="calculate-container-type-clean-room-dropdown">
-                                    <li class="calculate-container-type-clean-room-dropdown-item" data-multiplier="80">
-                                        Генеральне прибирання</li>
-                                    <li class="calculate-container-type-clean-room-dropdown-item" data-multiplier="90">
-                                        Після будівельних робіт</li>
-                                    <li class="calculate-container-type-clean-room-dropdown-item" data-multiplier="70">
-                                        Після квартирантів</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="calculate-container-area-room">
-                            <h3 class="calculate-container-area-room-heading">Площа прибирання
-                                <input class="calculate-container-area-room-value" type="text" value="30">
-                                м<sup>2</sup>
-                            </h3>
-                            <input class="calculate-container-area-room-range" type="range" value="30" min="0" max="150"
-                                step="1">
-                            <datalist class="calculate-container-area-room-values">
-                                <option value="0" label="0"></option>
-                                <option value="50" label="50"></option>
-                                <option value="100" label="100+"></option>
-                            </datalist>
-                        </div>
-                    </div>
-                    <div class="calculate-container-type-room">
-                        <h3 class="calculate-container-type-room-heading">Тип приміщення</h3>
-                        <div class="calculate-container-type-room-choice">
-                            <input class="calculate-container-type-room-input" type="radio" name="type-room"
-                                value="Однокімнатна" id="type-room-1">
-                            <label class="calculate-container-type-room-label" for="type-room-1">Однокімнатна</label>
-                        </div>
-                        <div class="calculate-container-type-room-choice">
-                            <input class="calculate-container-type-room-input" checked type="radio" name="type-room"
-                                value="Двохкімнатна" id="type-room-2">
-                            <label class="calculate-container-type-room-label" for="type-room-2">Двохкімнатна</label>
-                        </div>
-                        <div class="calculate-container-type-room-choice">
-                            <input class="calculate-container-type-room-input" type="radio" name="type-room"
-                                value="Три-чотирикімнатна" id="type-room-3">
-                            <label class="calculate-container-type-room-label"
-                                for="type-room-3">Три-чотирикімнатна</label>
-                        </div>
-                        <div class="calculate-container-type-room-choice">
-                            <input class="calculate-container-type-room-input" type="radio" name="type-room"
-                                value="Заміський будинок" id="type-room-4">
-                            <label class="calculate-container-type-room-label" for="type-room-4">Заміський
-                                будинок</label>
-                        </div>
-                        <div class="calculate-container-type-room-choice">
-                            <input class="calculate-container-type-room-input" type="radio" name="type-room"
-                                value="Офіс" id="type-room-5">
-                            <label class="calculate-container-type-room-label" for="type-room-5">Офіс</label>
-                        </div>
-                    </div>
+      <h2 class="calculate-heading">Розрахувати ціну</h2>
+      <form class="calculate-container">
+        <div class="calculate-container-parameter">
+          <div class="calculate-container-room">
+            <div>
+              <div class="calculate-container-type-clean-room">
+                <h3 class="calculate-container-type-clean-room-heading">
+                  Вид прибирання
+                </h3>
+                <div class="calculate-container-type-clean-room-choice">
+                  <div class="calculate-container-type-clean-room-header">
+                    <span class="calculate-container-type-clean-room-name"
+                      >Генеральне прибирання</span
+                    >
+                    <span
+                      class="calculate-container-type-clean-room-arrow"
+                    ></span>
+                  </div>
+                  <ul class="calculate-container-type-clean-room-dropdown">
+                    <li
+                      class="calculate-container-type-clean-room-dropdown-item"
+                      data-multiplier="80"
+                    >
+                      Генеральне прибирання
+                    </li>
+                    <li
+                      class="calculate-container-type-clean-room-dropdown-item"
+                      data-multiplier="90"
+                    >
+                      Після будівельних робіт
+                    </li>
+                    <li
+                      class="calculate-container-type-clean-room-dropdown-item"
+                      data-multiplier="70"
+                    >
+                      Після квартирантів
+                    </li>
+                  </ul>
                 </div>
-                <div class="calculate-container-additional">
-                    <h3 class="calculate-container-additional-heading">Додаткові послуги</h3>
-                    <div class="calculate-container-additional-list">
-                        <div class="calculate-container-additional-list-item">
-                            <div class="calculate-container-additional-item-radio-button">
-                                <input class="calculate-container-additional-item-input" type="radio" name="additional"
-                                    id="additional-1" value="*миття вікон" data-price="900">
-                            </div>
-                            <label class="calculate-container-additional-item-name" for="additional-1">Миття
-                                вікон</label>
-                        </div>
-                        <div class="calculate-container-additional-list-item">
-                            <div class="calculate-container-additional-item-radio-button">
-                                <input class="calculate-container-additional-item-input" type="radio" name="additional"
-                                    id="additional-2" value="*чистка доріжок" data-price="350">
-                            </div>
-                            <label class="calculate-container-additional-item-name" for="additional-2">Чистка
-                                доріжок</label>
-                        </div>
-                        <div class="calculate-container-additional-list-item">
-                            <div class="calculate-container-additional-item-radio-button">
-                                <input class="calculate-container-additional-item-input" type="radio" name="additional"
-                                    id="additional-3" value="*стрижка газону" data-price="200">
-                            </div>
-                            <label class="calculate-container-additional-item-name" for="additional-3">Стрижка
-                                газону</label>
-                        </div>
-                        <div class="calculate-container-additional-list-item">
-                            <div class="calculate-container-additional-item-radio-button">
-                                <input class="calculate-container-additional-item-input" type="radio" name="additional"
-                                    id="additional-4" value="*прибирання території" data-price="800">
-                            </div>
-                            <label class="calculate-container-additional-item-name" for="additional-4">Прибирання
-                                території</label>
-                        </div>
-                        <div class="calculate-container-additional-list-item">
-                            <div class="calculate-container-additional-item-radio-button">
-                                <input class="calculate-container-additional-item-input" type="radio" name="additional"
-                                    id="additional-5" value="*прибирання снігу" data-price="800">
-                            </div>
-                            <label class="calculate-container-additional-item-name" for="additional-5">Прибирання
-                                снігу</label>
-                        </div>
-                        <div class="calculate-container-additional-list-item">
-                            <div class="calculate-container-additional-item-radio-button">
-                                <input class="calculate-container-additional-item-input" type="radio" name="additional"
-                                    id="additional-6" value="*додаткових послуг не обрано" data-price="0" checked>
-                            </div>
-                            <label class="calculate-container-additional-item-name" for="additional-6">Без
-                                доповнень</label>
-                        </div>
-                    </div>
-                </div>
+              </div>
+              <div class="calculate-container-area-room">
+                <h3 class="calculate-container-area-room-heading">
+                  Площа прибирання
+                  <input
+                    class="calculate-container-area-room-value"
+                    type="text"
+                    value="30"
+                  />
+                  м<sup>2</sup>
+                </h3>
+                <input
+                  class="calculate-container-area-room-range"
+                  type="range"
+                  value="30"
+                  min="0"
+                  max="150"
+                  step="1"
+                />
+                <datalist class="calculate-container-area-room-values">
+                  <option value="0" label="0"></option>
+                  <option value="50" label="50"></option>
+                  <option value="100" label="100+"></option>
+                </datalist>
+              </div>
             </div>
-            <div class="calculate-container-cost">
-                <div class="calculate-container-cost-descr">
-                    <div>
-                        <h3 class="calculate-container-cost-descr-type-clean">Генеральне прибирання</h3>
-                        <p class="calculate-container-cost-descr-type-room">Двухкімнатна квартира</p>
-                        <p class="calculate-container-cost-descr-area-room">30 м<sup>2</sup></p>
-                    </div>
-                    <div>
-                        <h3 class="calculate-container-cost-descr-cost">Вартість</h3>
-                        <p class="calculate-container-cost-descr-cost-value">від 2400грн.</p>
-                    </div>
-                    <p class="calculate-container-cost-descr-additional">*додаткових послуг не обрано</p>
-                </div>
-                <div>
-                    <label class="calculate-container-cost-label-name">Ваше ім'я</label>
-                    <input class="calculate-container-cost-input-name" id="name" type="text">
-                </div>
-                <div>
-                    <label class="calculate-container-cost-label-tel">Телефон</label>
-                    <input class="calculate-container-cost-input-tel" id="tel" type="tel" placeholder="099-999-9999">
-                </div>
-                <div class="calculate-container-cost-submit-container">
-                    <div class="calculate-container-cost-submit-container-checkbox">
-                        <input class="calculate-container-cost-input-checkbox" type="checkbox" name="cost-checkbox">
-                        <label class="calculate-container-cost-label-checkbox" for="cost-checkbox">Згоден(а) з
-                            <span class="calculate-container-cost-label-checkbox-span">умовами користувальницької
-                                угоди</span></label>
-                    </div>
-                    <input class="calculate-container-cost-submit" type="submit" id="submit" value="Залишити заявку">
-                </div>
+            <div class="calculate-container-type-room">
+              <h3 class="calculate-container-type-room-heading">
+                Тип приміщення
+              </h3>
+              <div class="calculate-container-type-room-choice">
+                <input
+                  class="calculate-container-type-room-input"
+                  type="radio"
+                  name="type-room"
+                  value="Однокімнатна"
+                  id="type-room-1"
+                />
+                <label
+                  class="calculate-container-type-room-label"
+                  for="type-room-1"
+                  >Однокімнатна</label
+                >
+              </div>
+              <div class="calculate-container-type-room-choice">
+                <input
+                  class="calculate-container-type-room-input"
+                  checked
+                  type="radio"
+                  name="type-room"
+                  value="Двохкімнатна"
+                  id="type-room-2"
+                />
+                <label
+                  class="calculate-container-type-room-label"
+                  for="type-room-2"
+                  >Двохкімнатна</label
+                >
+              </div>
+              <div class="calculate-container-type-room-choice">
+                <input
+                  class="calculate-container-type-room-input"
+                  type="radio"
+                  name="type-room"
+                  value="Три-чотирикімнатна"
+                  id="type-room-3"
+                />
+                <label
+                  class="calculate-container-type-room-label"
+                  for="type-room-3"
+                  >Три-чотирикімнатна</label
+                >
+              </div>
+              <div class="calculate-container-type-room-choice">
+                <input
+                  class="calculate-container-type-room-input"
+                  type="radio"
+                  name="type-room"
+                  value="Заміський будинок"
+                  id="type-room-4"
+                />
+                <label
+                  class="calculate-container-type-room-label"
+                  for="type-room-4"
+                  >Заміський будинок</label
+                >
+              </div>
+              <div class="calculate-container-type-room-choice">
+                <input
+                  class="calculate-container-type-room-input"
+                  type="radio"
+                  name="type-room"
+                  value="Офіс"
+                  id="type-room-5"
+                />
+                <label
+                  class="calculate-container-type-room-label"
+                  for="type-room-5"
+                  >Офіс</label
+                >
+              </div>
             </div>
-        </form>
+          </div>
+          <div class="calculate-container-additional">
+            <h3 class="calculate-container-additional-heading">
+              Додаткові послуги
+            </h3>
+            <div class="calculate-container-additional-list">
+              <div class="calculate-container-additional-list-item">
+                <div class="calculate-container-additional-item-radio-button">
+                  <input
+                    class="calculate-container-additional-item-input"
+                    type="radio"
+                    name="additional"
+                    id="additional-1"
+                    value="*миття вікон"
+                    data-price="900"
+                  />
+                </div>
+                <label
+                  class="calculate-container-additional-item-name"
+                  for="additional-1"
+                  >Миття вікон</label
+                >
+              </div>
+              <div class="calculate-container-additional-list-item">
+                <div class="calculate-container-additional-item-radio-button">
+                  <input
+                    class="calculate-container-additional-item-input"
+                    type="radio"
+                    name="additional"
+                    id="additional-2"
+                    value="*чистка доріжок"
+                    data-price="350"
+                  />
+                </div>
+                <label
+                  class="calculate-container-additional-item-name"
+                  for="additional-2"
+                  >Чистка доріжок</label
+                >
+              </div>
+              <div class="calculate-container-additional-list-item">
+                <div class="calculate-container-additional-item-radio-button">
+                  <input
+                    class="calculate-container-additional-item-input"
+                    type="radio"
+                    name="additional"
+                    id="additional-3"
+                    value="*стрижка газону"
+                    data-price="200"
+                  />
+                </div>
+                <label
+                  class="calculate-container-additional-item-name"
+                  for="additional-3"
+                  >Стрижка газону</label
+                >
+              </div>
+              <div class="calculate-container-additional-list-item">
+                <div class="calculate-container-additional-item-radio-button">
+                  <input
+                    class="calculate-container-additional-item-input"
+                    type="radio"
+                    name="additional"
+                    id="additional-4"
+                    value="*прибирання території"
+                    data-price="800"
+                  />
+                </div>
+                <label
+                  class="calculate-container-additional-item-name"
+                  for="additional-4"
+                  >Прибирання території</label
+                >
+              </div>
+              <div class="calculate-container-additional-list-item">
+                <div class="calculate-container-additional-item-radio-button">
+                  <input
+                    class="calculate-container-additional-item-input"
+                    type="radio"
+                    name="additional"
+                    id="additional-5"
+                    value="*прибирання снігу"
+                    data-price="800"
+                  />
+                </div>
+                <label
+                  class="calculate-container-additional-item-name"
+                  for="additional-5"
+                  >Прибирання снігу</label
+                >
+              </div>
+              <div class="calculate-container-additional-list-item">
+                <div class="calculate-container-additional-item-radio-button">
+                  <input
+                    class="calculate-container-additional-item-input"
+                    type="radio"
+                    name="additional"
+                    id="additional-6"
+                    value="*додаткових послуг не обрано"
+                    data-price="0"
+                    checked
+                  />
+                </div>
+                <label
+                  class="calculate-container-additional-item-name"
+                  for="additional-6"
+                  >Без доповнень</label
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="calculate-container-cost">
+          <div class="calculate-container-cost-descr">
+            <div>
+              <h3 class="calculate-container-cost-descr-type-clean">
+                Генеральне прибирання
+              </h3>
+              <p class="calculate-container-cost-descr-type-room">
+                Двухкімнатна квартира
+              </p>
+              <p class="calculate-container-cost-descr-area-room">
+                30 м<sup>2</sup>
+              </p>
+            </div>
+            <div>
+              <h3 class="calculate-container-cost-descr-cost">Вартість</h3>
+              <p class="calculate-container-cost-descr-cost-value">
+                від 2400грн.
+              </p>
+            </div>
+            <p class="calculate-container-cost-descr-additional">
+              *додаткових послуг не обрано
+            </p>
+          </div>
+          <div>
+            <label class="calculate-container-cost-label-name">Ваше ім'я</label>
+            <input
+              class="calculate-container-cost-input-name"
+              id="name"
+              type="text"
+            />
+          </div>
+          <div>
+            <label class="calculate-container-cost-label-tel">Телефон</label>
+            <input
+              class="calculate-container-cost-input-tel"
+              id="tel"
+              type="tel"
+              placeholder="099-999-9999"
+            />
+          </div>
+          <div class="calculate-container-cost-submit-container">
+            <div class="calculate-container-cost-submit-container-checkbox">
+              <input
+                class="calculate-container-cost-input-checkbox"
+                type="checkbox"
+                name="cost-checkbox"
+              />
+              <label
+                class="calculate-container-cost-label-checkbox"
+                for="cost-checkbox"
+                >Згоден(а) з
+                <span class="calculate-container-cost-label-checkbox-span"
+                  >умовами користувальницької угоди</span
+                ></label
+              >
+            </div>
+            <input
+              class="calculate-container-cost-submit"
+              type="submit"
+              id="submit"
+              value="Залишити заявку"
+            />
+          </div>
+        </div>
+      </form>
     </div>
     <!-- Footer -->
     <footer>
-        <div>
-            <a class="footer-logo" href="#">Сяйво</a>
-            <a class="footer-logo-descr" href="#">Клінінг-компанія</a>
-        </div>
-        <div>
-            <h3 class="footer-heading">Про компанію</h3>
-            <a class="footer-item" href="#">Головна</a>
-            <a class="footer-item" href="#services">Послуги</a>
-            <a class="footer-item" href="#faq">Питання</a>
-            <a class="footer-item" href="">Про компанію</a>
-        </div>
-        <div>
-            <h3 class="footer-heading">Клієнтам</h3>
-            <a class="footer-item" href="#form">Види збирання</a>
-            <a class="footer-item" href="#form">Додаткові послуги</a>
-            <a class="footer-item" href="#form">Розрахунок ціни</a>
-        </div>
-        <div>
-            <h3 class="footer-heading">Інфо</h3>
-            <a class="footer-item" href="">Написати нам</a>
-            <a class="footer-item" href="">Залишити відгук</a>
-            <a class="footer-item" href="">Задати питання</a>
-            <a class="footer-item" href="#contacts">Контакти</a>
-        </div>
+      <div>
+        <a class="footer-logo" href="#">Сяйво</a>
+        <a class="footer-logo-descr" href="#">Клінінг-компанія</a>
+      </div>
+      <div>
+        <h3 class="footer-heading">Про компанію</h3>
+        <a class="footer-item" href="#">Головна</a>
+        <a class="footer-item" href="#services">Послуги</a>
+        <a class="footer-item" href="#faq">Питання</a>
+        <a class="footer-item" href="">Про компанію</a>
+      </div>
+      <div>
+        <h3 class="footer-heading">Клієнтам</h3>
+        <a class="footer-item" href="#form">Види збирання</a>
+        <a class="footer-item" href="#form">Додаткові послуги</a>
+        <a class="footer-item" href="#form">Розрахунок ціни</a>
+      </div>
+      <div>
+        <h3 class="footer-heading">Інфо</h3>
+        <a class="footer-item" href="">Написати нам</a>
+        <a class="footer-item" href="">Залишити відгук</a>
+        <a class="footer-item" href="">Задати питання</a>
+        <a class="footer-item" href="#contacts">Контакти</a>
+      </div>
     </footer>
     <!-- Modal window -->
     <div class="modal-window">
-        <p class="modal-window-text">Дякуємо за Вашу заявку, наші менеджери скоро зв'яжуться з вами для 
-            підтвердження замовлення та оплати.</p>
+      <p class="modal-window-text">
+        Дякуємо за Вашу заявку, наші менеджери скоро зв'яжуться з вами для
+        підтвердження замовлення та оплати.
+      </p>
     </div>
     <div class="overlay"></div>
-</body>
-
+  </body>
 </html>
